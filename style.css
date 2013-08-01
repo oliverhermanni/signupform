@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #4a4a4a;
+	color: #fff;
+	height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	width: 875px;
+    height:350px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-175px 0 0 -438px;}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+	height: 200px;
+}
+
+.text {
+	border-left: 1px solid #fff;
+	width: 600px;
+	height: 350px;
+	margin-left: 225px;
+	padding-left: 40px;
+}
+
+ul.social {
+	float: right;
+	list-style-type: none;
+}
+
+ul.social > li {
+	float: left;
+	width: 24px;
+}
+
+ul.social > li > a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul.social > li > a:hover {
+	color: #aaa;
+}
